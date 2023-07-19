@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  min-height: 70vh;
+  text-align: center;
+}
+
+.parallax h1 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 110px;
+  margin-top: 190px;
+  color: #eaeaea;
+  mix-blend-mode: hard-light;
+  text-shadow: 5px 5px 10px #0000003a, -1px -1px 25px #0000001a;
+  letter-spacing: -10px;
+}
+
+.parallax h2 {
+  font-weight: bold;
+  position: absolute;
+  text-transform: uppercase;
+  margin-top: 315px;
+  font-size: 36px;
+  color: #fff;
+  mix-blend-mode: hard-light;
+  z-index: 9999;
+  text-shadow: 5px 5px 10px #0000003a, -1px -1px 25px #0000001a;
+  letter-spacing: 2px;
+}
+
+.parallax #mountain {
+  width: 100%;
+  top: 50%;
+  max-width: 978px;
+}
+
+.parallax #boat {
+  display: inline-block;
+  width: 100%;
+  max-width: 176px;
+  margin-top: 27%;
+  margin-right: -28%;
+}
+
+.parallax #bird {
+  display: inline-block;
+  width: 100%;
+  max-width: 304px;
+  margin-top: 15%;
+  margin-left: -30%;
+}
+
+.parallax #island {
+  display: inline-block;
+  width: 100%;
+  max-width: 1035px;
+  margin-top: 15%;
+}
+
+.text-center {
+  text-align: center;
+  width: 100%;
+}
+
+.btn {
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 24px;
+  border: 1px solid #fff;
+  color: #fff;
+  background: #ffffff1a;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px #ffffff1a;
+  backdrop-filter: blur(5px);
+  z-index: 999;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  cursor: pointer;
+  margin-top: 24vh;
+  transition-duration: 1s;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
